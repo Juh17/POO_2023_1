@@ -1,0 +1,16 @@
+
+
+a) Seria interessante em um sistema bancário um objeto "conta" possuir uma
+"pessoa" como um atributo interno representando o titular da conta?
+
+   R = Sim, seria interessante. Pois tal atributo(pessoa) poderia ser identificado como um objeto,possibilitando 
+       sua manipulação em dado momento.
+      
+b) Olhando no sentido inverso, seria interessante uma pessoa possuir mais de
+uma conta como atributo? Que elemento da programação estruturada melhor
+representaria o conjunto de contas de uma pessoa?
+   
+   R = Não, pois cada conta existente na titularidade da pessoa, exigiria a criação de novos atributos, 
+   ou seja, conta 1, conta 2 etc. Assim, seria possível guardar cada conta em seu respectivo objeto(pessoa).
+   
+   

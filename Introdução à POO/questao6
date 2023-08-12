@@ -1,0 +1,32 @@
+  *Imagine um jogo qualquer. Identifique o máximo de objetos possíveis e eventuais
+características (atributos) e comportamentos (métodos) que os mesmos poderiam
+ter.
+
+  Jogo: GTA 5
+  
+  Objetos: 
+  
+     - Michael(personagem jogável 1)
+     Atributos: idade, etnia, corDosOlhos, profissão.
+     Métodos: andar(), correr(), nadar(), falar(), atirar()
+     
+      - Franklin(personagem jogável 2)
+     Atributos: idade, etnia, corDosOlhos, profissão.
+     Métodos: andar(), correr(), nadar(), falar(), atirar()
+     
+      - Trevor(personagem jogável 3)
+     Atributos: idade, etnia, corDosOlhos, profissão.
+     Métodos: andar(), correr(), nadar(), falar(), atirar()
+     
+      - Amanda(NPC 1)
+     Atributos: idade, etnia, corDosOlhos, profissão.
+     Métodos: falar(), andar(), fazerIoga()
+     
+      - Lamar(NCP 2)
+     Atributos: idade, etnia, corDosOlhos, profissão.
+     Métodos: falar(), andar(), atirar().
+     
+      - Chop(cachorro)
+     Atributos: raça, corDaPelagem, corDosOlhos, tamanho.
+     Métodos: andar(), correr(), sentar(), latir(), farejar()
+     
