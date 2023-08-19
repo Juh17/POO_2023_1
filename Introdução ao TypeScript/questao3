@@ -1,0 +1,7 @@
+
+Pesquise um exemplo na internet em que a tipagem dinâmica pode ser
+problemático.
+
+   R = Podemos citar a execução de um programa que faz uso dos operadores matematicos e que recebe 2 numeros para que o programa funcione.
+   Caso um dos valores inseridos não seja um numero(inteiro/flutuante) o resultado será um erro na execução do programa
+    

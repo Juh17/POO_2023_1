@@ -1,0 +1,10 @@
+
+
+   * Poderíamos dizer que a tipagem do TypeScript é fraca por uma variável do tipo
+number aceitar tanto inteiros como ponto flutuante?
+
+   R = No TypeScript assim como no JavaScript, todos os números são valores de ponto 
+   flutuante e recebem o tipo number. Além dos literais hexadecimais e decimais, 
+   o TypeScript também suporta literais binários e octal introduzidos no ECMAScript 2015. 
+
+

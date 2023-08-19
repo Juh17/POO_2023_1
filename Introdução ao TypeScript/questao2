@@ -1,0 +1,4 @@
+
+Qual o principal problema do uso de tipagem dinâmica?
+
+   R = Um dos principais problemas na tipagem dinâmica é o fato de um determinado dado ser atribuido a uma determinada estrutura, e esse  dado ser de um tipo não esperado, diferente, o que originaria um erro, que seria percebido apenas na execução do pŕograma(runtime).
