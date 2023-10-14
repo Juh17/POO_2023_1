@@ -1,0 +1,5 @@
+
+Sim, pode-se afirmar. Pois é preciso que haja prévia inicialização da mesma
+no momento de sua declaração. Quando não, faz-se necessário o uso de um construtor para
+que a inicialização seja concretizada. O que não ocorre no código disposto.
+ 
