@@ -115,13 +115,6 @@ class Banco {
 			}, 0);
 
 		return totalDepositado;
-
-		/* solução 2
-		let totalDepositado: number = 0
-		this.contas.forEach(conta => totalDepositado += conta.saldo);
-
-		return totalDepositado;
-		*/
 	}
 
 	getTotalContas(): number {
