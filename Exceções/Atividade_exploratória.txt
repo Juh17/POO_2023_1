@@ -1,0 +1,72 @@
+1) Identifique pelo menos 3 “erros” que acontecem quando você está programando
+com TypeScript que levam à parada brusca da execução de código.
+
+   R = * RangeError
+       * ReferenceError
+       * SyntaxError
+       
+2) O que é uma exceção em programação e como ela se diferencia de um erro
+comum?
+
+   R = Na programação, uma exceção ocorre quando um evento ou condição imprevista 
+       se manifesta durante a execução de um programa, resultando na interrupção do 
+       fluxo normal de execução do mesmo. A diferença entre exceção e erro geralmente está 
+       relacionada à natureza do problema: erros podem ser detectados e abordados diretamente 
+       pelo código; Exceções frequentemente indicam condições excepcionais ou imprevisíveis, fora
+       do controle do programador. 
+    
+3) Como o TypeScript implementa o tratamento de exceções?
+
+   R = Para o tratamento de exceções em TS, geralmente utiliza-se os blocos try, catch e finally.
+   
+4) Qual é a função do bloco try-catch no tratamento de exceções em TypeScript?
+
+   R = * try: Nesse bloco é inserido o código que pode gerar exceções. Durante a execução, 
+              o TypeScript monitora esse código em busca de qualquer exceção que 
+              possa surgir.
+
+       * catch: Caso uma exceção seja encontrada dentro do bloco try, o controle do programa 
+                é transferido para o bloco catch. Aqui, é onde deve-se especificar um parâmetro 
+                que representa a exceção capturada. No bloco catch, é desenvolvido o código para tratar a exceção.
+          
+5) Como você pode criar exceções personalizadas em TypeScript?
+ 
+   R = Em TypeScript, é possível criar exceções personalizadas ao estender a classe Error 
+       ou uma de suas subclasses. A classe Error fornece uma estrutura essencial para a representação 
+       de erros, possibilitando que se expanda essa funcionalidade para criar exceções mais específicas, 
+       adequadas às particularidades da aplicação em desenvolvimento.
+       
+6) Quais são os tipos comuns de exceções que podem ser encontradas em
+aplicações TypeScript?
+
+   R = * RangeError: ocorre quando uma variável ou parâmetro númerico está fora de seu intervalo válido;
+       * ReferenceError: ocorre quando uma variável ou função é utilizada, mas não foi declarada ou está fora de escopo.
+       * SyntaxError: representa um erro de sintaxe que ocorre ao analisar código que não é TS válido.
+       * TypeError: ocorre quando uma variável ou parâmetro não é um tipo válido.
+       
+7) Qual é o papel do bloco finally no tratamento de exceções em TypeScript?
+
+   R = O bloco finally é facultativo e inclui código que será executado, 
+       independente de ocorrer ou não uma exceção. Normalmente, utiliza-se esse bloco 
+       para realizar operações de limpeza, como fechar arquivos ou conexões de banco de dados.
+  
+8) Como o tratamento de exceções em TypeScript ajuda a melhorar a robustez e a
+segurança de uma aplicação?
+
+   R = Capacitando a habilidade de reconhecer uma exceção, lidar com ela e criar 
+       uma rota alternativa para que a exceção não cause a interrupção completa do 
+       funcionamento da aplicação.
+
+9) Existem diferenças significativas no tratamento de exceções entre TypeScript e
+JavaScript?
+ 
+  R = Existem algumas distinções significativas de TS em relação à JS, tais como: tipagem estática, 
+      documentação de tipos de exceção, suporte para erros de tipagem, tratamento de erros avançado, entre outras.
+      
+10) Como você pode testar e depurar eficientemente exceções em TypeScript?
+
+  R = Através de Testes unitários e funcionais, Assertions e testes de unidade, 
+      Tratamento de exceções, Testes de integração, Ferramentas de Debugging,
+      Tipagem estática, entre outras medidas.
+
+
